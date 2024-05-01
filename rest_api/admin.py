@@ -14,4 +14,3 @@ class ProductAdmin(admin.ModelAdmin):
     search_fields = ('name', 'category')
     list_filter = ('category', 'price')
     list_editable = ('price', 'stock')
-

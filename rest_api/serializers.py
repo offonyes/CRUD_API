@@ -19,6 +19,7 @@ class ProductListSerializer(serializers.ModelSerializer):
         model = Product
         fields = ['name', 'price']
 
+
 class ProductUpdateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Product
@@ -26,9 +27,6 @@ class ProductUpdateSerializer(serializers.ModelSerializer):
 
 
 class ProductSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Product
         fields = '__all__'
-
-
