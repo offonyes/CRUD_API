@@ -35,3 +35,4 @@ pip install -r requirements.txt
 ```py
 python manage.py runserver
 ```
+admin user - login: admin password: admin
